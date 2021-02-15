@@ -1,0 +1,52 @@
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.card{
+    margin: 50px;
+}
+
+.fas, .far, .fab{
+    margin: 10px;
+}
+
+#illust .carousel{
+    position:relative;
+    margin: 40px;
+}
+
+#illust .carousel-control-prev{
+    opacity: 0.2;
+    background-color: #2f4357;
+    width: 30px;
+}
+
+#illust .carousel-control-next{
+    opacity: 0.2;
+    background-color: #2f4357;
+    width: 30px;
+}
+
+#illust .carousel-control-prev:hover{
+    opacity: 0.5;
+}
+
+#illust .carousel-control-next:hover{
+    opacity: 0.5;
+}
+
+#creation .col-md-8{
+    display: inline-block;
+}
+#creation .slide{
+    padding: 20px;
+    border: 1px solid black;
+}
