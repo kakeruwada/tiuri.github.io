@@ -6,6 +6,10 @@ h1 {
     font-size: 32px;
 }
 
+ol, ul{
+    list-style: none;
+}
+
 .container{
     margin-top: 100px;
 }
@@ -45,4 +49,58 @@ h1 {
 #creation .slide{
     padding: 20px;
     border: 1px solid black;
+}
+
+.snsWrapper{
+    height: 4em;
+    padding-top: 20px;
+    border-top: 1px solid #c3c3c3;
+}
+.snsWrapper ul{
+    display: inline-block;
+    width: 100%;
+}
+.snsWrapper ul li{
+    float: right;
+    width: 10em;
+    margin-right: 2em;
+    text-align: center;
+}
+.snsWrapper ul li:hover{
+    opacity: 0.5;
+}
+
+footer .snsWrapper ul li a{
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+.snsWrapper ul li img{
+    height: 3em;
+}
+.snsWrapper .Twitter{
+    background-color: #20a1f1;
+}
+
+.snsWrapper .Github{
+    background-color: black;
+}
+
+.back-to-top{
+    text-align: center;
+    height: 8em;
+    margin-top: 20px;
+    border-top: 1px solid #c3c3c3;
+}
+.back-to-top .btt-btn{
+    padding-top: 40px;
+
+}
+.back-to-top .gohome{
+    font-weight: bold;
+    color: #305097;
+}
+
+.blank{
+    height: 10em;
 }
