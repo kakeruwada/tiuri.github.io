@@ -60,6 +60,7 @@ ol, ul{
     display: inline-block;
     width: 100%;
 }
+
 .snsWrapper ul li{
     float: right;
     width: 10em;
@@ -72,7 +73,7 @@ ol, ul{
 
 footer .snsWrapper ul li a{
     display: inline-block;
-    width: auto;
+    width: 100%;
     text-align: center;
 }
 .snsWrapper ul li img{
